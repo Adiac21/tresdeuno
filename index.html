@@ -72,9 +72,11 @@
     }
 </script>
 <script type="text/javascript">
+    input.onkeydown = cerrarNav;
     function cerrarNav(){
         document.getElementById("bLateral").style.width="0em"
     }
+    input.onkeydown = abrirNav;
     function abrirNav(){
         document.getElementById("bLateral").style.width="24em"
     }
