@@ -192,7 +192,6 @@ label {
     position: absolute;
     width: 6.2em;
     height: 5.62em;
-    background: https://github.com/Adiac21/tresdeuno/blob/main(/BotonV1.png);
     background-position: right;
     top: 1em;
     left: 8.5em;
@@ -200,18 +199,16 @@ label {
     border-radius: 0.1em;
     z-index: 1;
     transition: 0.2s;
+    overflow:hidden;
 }
-
-label:hover {
-    background-position: right;
+label img{
+    transform: translateX(-6.2em);
 }
-
 #check:checked~nav {
     transform: translateX(24em);
 }
-
-#check:checked~label {
-    background-position: left;
+#check:checked~label img{
+    transform: translateX(0em);
 }
 
 #check {
