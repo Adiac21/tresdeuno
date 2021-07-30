@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+div:focus {
+    font-weight: bold;
+}
 
 .Todo {
     background-image: url(/Fondo.jpg);
